@@ -17,6 +17,8 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "assets/img/ASCENTAM-LOGO_BLACK-07[1].png"; // Adjusted path
+
 // reactstrap components
 import {
   Button,
@@ -79,8 +81,8 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>NAME• </span>
-            and logo
+
+            <img src={logo} alt="Ascentam Logo" style={{ height: "40px", width: "auto" }} />
           </NavbarBrand>
           {/* <UncontrolledTooltip placement="bottom" target="navbar-brand">
             Designed and Coded by Creative Tim

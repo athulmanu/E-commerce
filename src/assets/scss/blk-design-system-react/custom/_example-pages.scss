@@ -9,7 +9,7 @@
 
           .h1-seo,
           h3 {
-            color: $white;
+            color: $background-black;
             font-weight: 600;
             text-transform: capitalize;
 
@@ -43,7 +43,7 @@
       animation: move-left-right 4s infinite;
       height: 300px;
       width: 300px;
-      opacity: 0.5;
+      opacity: 0.6;
       left: 3%;
       top: -21%;
     }
@@ -52,7 +52,7 @@
       animation: move-left-right 6s infinite;
       height: 400px;
       width: 400px;
-      opacity: 0.4;
+      opacity: 0.9;
       right: -5%;
       top: -12%;
     }
@@ -61,7 +61,7 @@
       animation: move-left-right 5s infinite;
       height: 200px;
       width: 200px;
-      opacity: 0.1;
+      opacity: 0.9;
       left: -5%;
       bottom: 0%;
     }
@@ -79,7 +79,7 @@
       animation: move-left-right 6s infinite;
       height: 250px;
       width: 250px;
-      opacity: 0.1;
+      opacity: 0.9;
       left: 32%;
       bottom: 29%;
     }
@@ -99,7 +99,7 @@
       height: 300px;
       right: -5%;
       bottom: 0%;
-      opacity: 0.1;
+      opacity: 0.9;
     }
   }
 }

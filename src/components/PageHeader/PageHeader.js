@@ -16,7 +16,7 @@ export default function PageHeader() {
       <div className="squares square7" />
       <Container>
         <div className="content-center brand">
-          <h1 className="h1-seo">E COMMERCE</h1>
+          <h1 className="h1-seo">WELCOME TO ASCENTAM</h1>
 
         </div>
       </Container>
